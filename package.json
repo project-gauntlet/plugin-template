@@ -1,0 +1,17 @@
+{
+  "name": "plugin-template",
+  "scripts": {
+    "publish": "gauntlet publish",
+    "build": "gauntlet build",
+    "dev": "gauntlet dev"
+  },
+  "dependencies": {
+    "@project-gauntlet/api": "0.1.0",
+    "@project-gauntlet/deno": "0.1.0"
+  },
+  "devDependencies": {
+    "@project-gauntlet/tools": "0.3.0",
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3"
+  }
+}

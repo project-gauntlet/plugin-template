@@ -1,0 +1,8 @@
+[gauntlet]
+name = 'Template Plugin'
+
+[[entrypoint]]
+id = 'template-view'
+name = 'Template view'
+path = 'src/template-view.tsx'
+type = 'view'
