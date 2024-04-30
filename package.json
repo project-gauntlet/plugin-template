@@ -10,7 +10,7 @@
     "@project-gauntlet/deno": "0.1.0"
   },
   "devDependencies": {
-    "@project-gauntlet/tools": "0.3.0",
+    "@project-gauntlet/tools": "0.5.0",
     "@types/react": "^18.2.48",
     "typescript": "^5.3.3"
   }
