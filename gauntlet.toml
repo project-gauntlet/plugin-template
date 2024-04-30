@@ -1,8 +1,14 @@
 [gauntlet]
 name = 'Template Plugin'
+description = """
+Template Plugin Description
+"""
 
 [[entrypoint]]
 id = 'template-view'
 name = 'Template view'
 path = 'src/template-view.tsx'
 type = 'view'
+description = """
+Template Plugin Entrypoint Description
+"""
