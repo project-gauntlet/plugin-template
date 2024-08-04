@@ -6,12 +6,12 @@
     "dev": "gauntlet dev"
   },
   "dependencies": {
-    "@project-gauntlet/api": "0.1.0",
-    "@project-gauntlet/deno": "0.1.0"
+    "@project-gauntlet/api": "0.6.0",
+    "@project-gauntlet/deno": "0.6.0"
   },
   "devDependencies": {
-    "@project-gauntlet/tools": "0.5.0",
-    "@types/react": "^18.2.48",
-    "typescript": "^5.3.3"
+    "@project-gauntlet/tools": "0.6.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
   }
 }
