@@ -10,6 +10,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+      - run: git config --global user.name "${GITHUB_ACTOR}"
+      - run: git config --global user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
+      - run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
       - run: npm ci
       - run: npm run publish
 
